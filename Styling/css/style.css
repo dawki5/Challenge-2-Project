@@ -1,0 +1,106 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/back-g\ img.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+header {
+    padding: 10px;
+    background-image: url(../images/header\ bg\ img.jpg);
+}
+
+header h1 {
+    color: white;
+    display: inline-block;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+header nav {
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 10px;
+    bottom: 23px;
+}
+
+
+nav li a:hover {
+    color: gold;
+}
+
+nav li a {
+    color: white
+}
+
+p {
+    font-size: 25px;
+    color:white
+}
+
+.left {
+    max-width: 100%;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.P1 {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+
+}
+
+.P2 {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.P3 {
+    max-width: 100%;
+    height: 300px;
+    width: 300px; 
+}
+
+.column {
+    flex-flow: column;
+}
+ 
+.About-Me {
+    color: gold;
+    font: 30px
+}
+
+.Work {
+    color: gold;
+}
+
+.Contact-Information {
+    color: gold;
+}
